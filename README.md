@@ -62,38 +62,34 @@ Completed project environment setup and configured dependencies.
 Explored dataset for insights and performed initial preprocessing steps.
 Notebook Files:
 
-# Week 1 - Setup and Data Preparation on Kaggle.
+# Project Progress
+# Week 1: Libraries, Data Import, and Setup
+Date: 20th January 2025 - 27th January 2025
+
+# Activities:
+
+Imported the required libraries and frameworks.
+Set up the project environment and dependencies.
+Explored the dataset structure and performed initial preprocessing.
+Note: If the dataset file is taking too long to load, you can view the Kaggle notebook directly here.
+
+Notebooks:
+
+Week 1 - Libraries, Data Import, and Setup
+https://www.kaggle.com/code/rajsaraf/week1-datasetup-and-visualization
+
+Week 2: TBD
+Details to be added after completion.
+
+Week 3: TBD
+Details to be added after completion.
 
 
-# How to Use
-To use the project for training the model or making predictions with new images, follow the steps below:
 
-1. Clone the Repository
-Begin by cloning the repository from GitHub to your local machine:
 
-# bash
-git clone https://github.com/YourUsername/CNN-Plastic-Waste-Classification
-cd CNN-Plastic-Waste-Classification
-2. Install Dependencies
-Install all required libraries for the project via pip:
 
-# bash
-pip install -r requirements.txt
-3. Train the Model
-Execute the following command to train the CNN model using the dataset:
 
-# bash
-python train.py
-You can adjust parameters like epochs and batch size directly inside the train.py script, as per your needs.
-
-4. Run Inference on an Image
-Once training is complete, you can use the trained model to make predictions on new images. Just run the following command with the image file path:
-
-# bash
-python predict.py --image_path /path/to/image.jpg
-The model will output the predicted class (either Organic or Recyclable).
-
-Technologies Employed
+# Technologies Employed
 The project relies on several technologies for development and implementation:
 
 Python: Programming language of choice for the project.
