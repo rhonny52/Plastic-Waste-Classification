@@ -1,2 +1,13 @@
-# Week-1
-This repository contains a simple Python script that loads a dataset and creates a pie chart to visualize the distribution of categories (e.g., "Organic" and "Recyclable") within a dataset. Using the pandas library, the script counts occurrences of each category and displays the results as a pie chart using matplotlib.
+
+# Plastic-Waste-Classification
+During the six-week internship, I undertook an end-to-end journey of implementing a "Waste Classification with CNN" project. In the first week, I focused on understanding the problem of waste classification and its significance in promoting sustainable waste management practices. I researched CNNs and their role in image classification while exploring suitable datasets from platforms like Kaggle. This included performing exploratory data analysis (EDA) to understand the data distribution, identifying missing values, and addressing class imbalances. Additionally, I organized the data into training, testing, and validation subsets.
+
+In the second week, I concentrated on data preprocessing to make the images suitable for CNNs. I resized all images to standard dimensions and implemented image augmentation techniques such as flipping, rotation, and zooming to improve the model's generalization ability. I also normalized the images and ensured a balanced dataset to address potential biases.
+
+During the third week, I designed and developed a CNN architecture from scratch. I built a sequential model comprising Conv2D, MaxPooling, Dropout, and Dense layers. Hyperparameters such as learning rate, batch size, and the number of epochs were carefully configured. I ran initial experiments to fine-tune the architecture for improved performance.
+
+The focus of the fourth week was training and evaluating the model. I trained the CNN using the prepared dataset and monitored key performance metrics like accuracy, precision, and recall. Visualization tools like TensorBoard and Matplotlib were used to analyze the model's learning curve. To optimize the performance further, I experimented with different activation functions, optimizers such as Adam and SGD, and layer configurations.
+
+In the fifth week, I tested the model's performance on unseen images to validate its real-world applicability. The evaluation included generating a confusion matrix and a classification report to analyze the results. Additionally, I explored deploying the trained model by integrating it into a simple web application using Flask or Streamlit, making it user-friendly for practical use cases.
+
+Finally, in the sixth week, I focused on documentation and reporting. I documented the entire project journey, including key findings, challenges faced, and how they were addressed. I prepared a comprehensive report and presentation that detailed the outcomes, impact, and potential future improvements of the project. The project concluded with a demonstration of the waste classification system to internship supervisors and stakeholders.
