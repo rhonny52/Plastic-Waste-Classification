@@ -68,7 +68,7 @@ This section will be updated weekly with progress details and corresponding Jupy
   - Note: If the file takes too long to load, you can view the Kaggle notebook directly [Kaggle Notebook](https://www.kaggle.com/code/hardikksankhla/cnn-plastic-waste-classification).  
 
 - **Notebooks:**  
-  - [Week1-Libraries-Importing-Data-Setup.ipynb]([https://github.com/rhonny52/Plastic-Waste-Classification/blob/main/week1-datasetup-and-visualization.ipynb])  
+  - [Week1-Libraries-Importing-Data-Setup.ipynb](https://github.com/rhonny52/Plastic-Waste-Classification/blob/main/week1-datasetup-and-visualization.ipynb)  
   - [Kaggle Notebook](https://www.kaggle.com/code/rajsaraf/week1-datasetup-and-visualization)
 
 ### **Week 2: Model Training, Evaluation, and Predictions**  
